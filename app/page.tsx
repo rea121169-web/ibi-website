@@ -5,9 +5,9 @@ import { useEffect, useState } from 'react';
 const features = [
   { n: '01', title: 'Пошаговые инструкции', text: 'Сложные операции разложены на понятные действия — от первого клика до результата.' },
   { n: '02', title: 'Визуальное обучение', text: 'Подсказки и скриншоты помогают быстро находить нужные разделы и поля интерфейса.' },
-  { n: '03', title: 'AI-наставник', text: 'Объясняет ошибки простым языком, даёт подсказку и помогает двигаться дальше.' },
+  { n: '03', title: 'AI-наставник', text: 'Контекстный образовательный помощник помогает разобраться в текущем шаге, объясняет ошибки и даёт подсказки в рамках конкретной темы.' },
   { n: '04', title: 'Практические задания', text: 'Каждая тема закрепляется действием в «1С:Бухгалтерия 8.3, учебная версия».' },
-  { n: '05', title: 'Система прогресса', text: 'Видно, какие навыки уже освоены, а к каким стоит вернуться перед практикой.' },
+  { n: '05', title: 'Персональная траектория', text: 'Направление развития продукта: анализ прогресса и трудных тем, дополнительная практика и адаптация последовательности обучения под результаты пользователя.' },
   { n: '06', title: 'Геймификация', text: 'Серии занятий, опыт и достижения поддерживают темп без лишнего давления.' },
 ];
 
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="container">
             <div className="section-head split-head" data-reveal>
               <div><span className="section-index">01 / ПРОБЛЕМА</span><h2>Диплом есть.<br />Уверенности в работе — <em>нет.</em></h2></div>
-              <p>Студенты знают проводки и счета, но часто впервые сталкиваются с реальной логикой 1С уже на стажировке. Работодателю приходится доучивать специалиста с нуля.</p>
+              <p>Студенты знают проводки и счета, но часто впервые сталкиваются с реальной логикой 1С уже на стажировке. Работодателю нередко приходится дополнительно обучать начинающего специалиста практической работе в 1С.</p>
             </div>
             <div className="gap-visual" data-reveal>
               <div className="gap-side theory-side"><span className="gap-label">В АУДИТОРИИ</span><strong>Теория</strong><ul><li>План счетов</li><li>Типовые проводки</li><li>Документы и регистры</li></ul></div>
@@ -188,8 +188,8 @@ export default function Home() {
         <section className="status-section section" id="status">
           <div className="container status-card" data-reveal>
             <div className="status-top"><span className="live-dot"><i /> ТЕКУЩИЙ СТАТУС</span><b>2026</b></div>
-            <div className="status-main"><h2>Создаём и проверяем<br />первую версию продукта.</h2><p>Проект находится на стадии разработки и тестирования MVP.</p></div>
-            <div className="roadmap"><div className="done"><span>✓</span><b>Концепция</b><small>готово</small></div><div className="active"><span>02</span><b>MVP</b><small>в работе</small></div><div><span>03</span><b>Пилот</b><small>следующий этап</small></div><div><span>04</span><b>B2B-партнёрства</b><small>масштабирование</small></div></div>
+            <div className="status-main"><h2>Создаём и проверяем<br />первую версию продукта.</h2><p>Проект находится на стадии разработки MVP и внутреннего тестирования командой. Внешний пилот с пользователями ещё не проводился.</p></div>
+            <div className="roadmap"><div className="done"><span>✓</span><b>Концепция</b><small>готово</small></div><div className="active"><span>02</span><b>MVP</b><small>разработка и внутреннее тестирование</small></div><div><span>03</span><b>Пилот</b><small>с целевой аудиторией — следующий этап</small></div><div><span>04</span><b>B2B-партнёрства</b><small>с образовательными организациями — масштабирование</small></div></div>
           </div>
         </section>
 
@@ -197,13 +197,11 @@ export default function Home() {
           <div className="container contact-inner" data-reveal>
             <div><span className="section-index">07 / КОНТАКТЫ</span><h2>Давайте сделаем<br />практическое обучение<br /><em>доступнее.</em></h2></div>
             <div className="contact-card">
-              <p>Открыты к пилотным запускам, партнёрствам с образовательными организациями и диалогу с экспертами.</p>
+              <p>Проект готовится к подаче на КИВО-2026. Официальный канал связи будет опубликован после его подтверждения.</p>
               <div className="contact-fields">
-                <div><span>ОСНОВАТЕЛЬ</span><b>Имя основателя</b></div>
-                <a href="https://t.me/username" target="_blank" rel="noreferrer"><span>TELEGRAM</span><b>@username</b><i>↗</i></a>
-                <a href="mailto:hello@example.ru"><span>EMAIL</span><b>hello@example.ru</b><i>↗</i></a>
+                <div><span>СТАТУС ПРОЕКТА</span><b>MVP в разработке и внутреннем тестировании</b></div>
+                <div><span>СЛЕДУЮЩИЙ ЭТАП</span><b>Пилот с представителями целевой аудитории</b></div>
               </div>
-              <small>Замените данные-заполнители на актуальные перед публикацией заявки.</small>
             </div>
           </div>
         </section>
