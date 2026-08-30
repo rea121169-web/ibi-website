@@ -197,7 +197,7 @@ export default function Home() {
           <div className="container contact-inner" data-reveal>
             <div><span className="section-index">07 / КОНТАКТЫ</span><h2>Давайте сделаем<br />практическое обучение<br /><em>доступнее.</em></h2></div>
             <div className="contact-card">
-              <p>Проект готовится к подаче на КИВО-2026. Официальный канал связи будет опубликован после его подтверждения.</p>
+              <p>Открыты к пилотному тестированию проекта, сотрудничеству с образовательными организациями и экспертному диалогу.</p>
               <div className="contact-fields">
                 <div><span>СТАТУС ПРОЕКТА</span><b>MVP в разработке и внутреннем тестировании</b></div>
                 <div><span>СЛЕДУЮЩИЙ ЭТАП</span><b>Пилот с представителями целевой аудитории</b></div>
